@@ -7,10 +7,10 @@ import com.atguigu.jf.console.trigger.service.SendEmailService;
 
 public class JobDetailBean {
 	@Autowired
+
 	private CreateExchangeLogSerice createExchangeLogSerice;
 	@Autowired
 	private SendEmailService sendEmailService;
-	
 	//石英调度时执行的方法
 	public void doIt(){
 		String string = createExchangeLogSerice.CreateExchangeLogExcle();

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jf-console:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jf-console.war">
+      <element id="artifact" artifact-name="jf-console:war exploded" />
+    </root>
+  </artifact>
+</component>
